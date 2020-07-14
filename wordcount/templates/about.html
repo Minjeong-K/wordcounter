@@ -1,0 +1,25 @@
+{% load static %}
+<head>
+    <title>ABOUT</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'wordcount/style.css' %}" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="{% url 'home' %}">
+                wordcount_minjeong
+            </a>
+        </nav>
+
+        <h1>About</h1>
+
+        <p>안녕하세요.<br>
+        이곳은 글자를 세는 멋쟁이 사자처럼 강민정의 워드 카운트 웹페이지 입니다.</p>
+        <center>
+            <a class="btn btn-primary" href="{%url 'home'%}" role="button">Home으로 돌아가기</a>
+        </center>
+        
+    </div>
+    
+</body>

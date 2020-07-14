@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nanum+Gothic:wght@700&family=Open+Sans&display=swap');
+
+h1 {
+    background-color: skyblue;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+textarea { 
+    margin: 20px; }
+
+.center {        
+    justify-content: center;
+}
